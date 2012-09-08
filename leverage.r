@@ -12,50 +12,45 @@ levfiles=paste("Leverage_",discipline.names,".csv",sep="")
 
 source("rapfish_functions.R")
 
- for(i in 1:nfield)
- {
-fisheries.all = loaddata(filenames[i])
-n_att=ncol(fisheries.all)
-anchors=loaddata(anchor_files[n_att-3])
-colnames(anchors)<-colnames(fisheries.all)
- n_an=nrow(anchors)
-plot1=n_an+1
- plot2=n_an+num_fish
-	
-fisheries.dat=fisheries.all[1:num_fish,]
-fisheries.raw=rbind(anchors,fisheries.dat)
-fisheries.scaled = mdscale(fisheries.raw)
-res_main_x=fisheries.scaled[plot1:plot2,1]
-res_main_y=fisheries.scaled[plot1:plot2,2]
+for(i in 1:nfield) {
+  fisheries.all = loaddata(filenames[i])
+  n_att=ncol(fisheries.all)
+  anchors=loaddata(anchor_files[n_att-3])
+  colnames(anchors)<-colnames(fisheries.all)
+  n_an=nrow(anchors)
+  plot1=n_an+1
+  plot2=n_an+num_fish
 
-fish_lv_res_x=matrix(data=0,nrow=num_fish,ncol=n_att)
-fish_lv_res_y=matrix(data=0,nrow=num_fish,ncol=n_att)
+  fisheries.dat=fisheries.all[1:num_fish,]
+  fisheries.raw=rbind(anchors,fisheries.dat)
+  fisheries.scaled = mdscale(fisheries.raw)
+  res_main_x=fisheries.scaled[plot1:plot2,1]
+  res_main_y=fisheries.scaled[plot1:plot2,2]
 
-anchors=loaddata(anchor_files[n_att-3-1])
+  fish_lv_res_x=matrix(data=0,nrow=num_fish,ncol=n_att)
+  fish_lv_res_y=matrix(data=0,nrow=num_fish,ncol=n_att)
 
-	for(lv in 1:n_att)
-	{
-	fish_lv=fisheries.dat[,-lv]  
-	colnames(anchors)<-colnames(fish_lv)
-	 n_an=nrow(anchors)
-	 plot1=n_an+1
- 	plot2=n_an+num_fish
-	fish_lv.raw=rbind(anchors,fish_lv)
-	fish_lv.scaled = mdscale(fish_lv.raw)
-	fish_lv_res_x[,lv]=fish_lv.scaled[plot1:plot2,1]
-	fish_lv_res_y[,lv]=fish_lv.scaled[plot1:plot2,2]
+  anchors=loaddata(anchor_files[n_att-3-1])
 
-	}
-	
-colnames(fish_lv_res_x)<-colnames(fisheries.all)
-colnames(fish_lv_res_y)<-colnames(fisheries.all)
+  for(lv in 1:n_att) {
+    fish_lv=fisheries.dat[,-lv]  
+    colnames(anchors)<-colnames(fish_lv)
+    n_an=nrow(anchors)
+    plot1=n_an+1
+    plot2=n_an+num_fish
+    fish_lv.raw=rbind(anchors,fish_lv)
+    fish_lv.scaled = mdscale(fish_lv.raw)
+    fish_lv_res_x[,lv]=fish_lv.scaled[plot1:plot2,1]
+    fish_lv_res_y[,lv]=fish_lv.scaled[plot1:plot2,2]
+  }
 
-sumsqx=colSums((fish_lv_res_x-res_main_x)^2)
-sumsqy=colSums((fish_lv_res_y-res_main_y)^2)
+  colnames(fish_lv_res_x)<-colnames(fisheries.all)
+  colnames(fish_lv_res_y)<-colnames(fisheries.all)
 
-lev=cbind(sqrt(sumsqx/num_fish),sqrt(sumsqy/num_fish))
-colnames(lev)<-c("X_scores","Y_scores")
-write.csv(lev,levfiles[i])
+  sumsqx=colSums((fish_lv_res_x-res_main_x)^2)
+  sumsqy=colSums((fish_lv_res_y-res_main_y)^2)
 
+  lev=cbind(sqrt(sumsqx/num_fish),sqrt(sumsqy/num_fish))
+  colnames(lev)<-c("X_scores","Y_scores")
+  write.csv(lev,levfiles[i])
 }
-

@@ -1,5 +1,6 @@
 # RAPFish - Rapid Assessment of Fishery Sustaintability   
 #   # for local execution in R 
+#
 # 2012-08-24 Divya Varkey	Additional 25 anchors not plotted
 # 2012-04-15 Divya Varkey 	Rapfish, MC and Leverage
 # 2011-09-27 Divya Varkey 	rapfish code for 1 field at a time
@@ -115,20 +116,20 @@ mdscale <- function(dataset) {
   coords1= matrix(rotate(coords[,1],coords[,2],angle),,2)
   rownames(coords1)= rownames(coords)
   
-    x.min= min(coords1[,1])
-    x.max= max(coords1[,1])
-    y.min= min(coords1[,2])
-    y.max= max(coords1[,2])
+  x.min= min(coords1[,1])
+  x.max= max(coords1[,1])
+  y.min= min(coords1[,2])
+  y.max= max(coords1[,2])
   
-    	 sc_x=100/(x.max-x.min)
-    	X_scores=coords1[,1]*sc_x
-    	ad_x=abs(X_scores[2])
-    	X_scores=X_scores+ad_x
+  sc_x=100/(x.max-x.min)
+  X_scores=coords1[,1]*sc_x
+  ad_x=abs(X_scores[2])
+  X_scores=X_scores+ad_x
      
-     	 sc_y=100/(y.max-y.min)
-     	 Y_scores=coords1[,2]*sc_y
+  sc_y=100/(y.max-y.min)
+  Y_scores=coords1[,2]*sc_y
      	 
-     coords2=cbind(X_scores,Y_scores)
+  coords2=cbind(X_scores,Y_scores)
 
   return(coords2)
 }
@@ -151,23 +152,22 @@ RAPplot1 <- function(coords2,num_fish,n_an) {
   fish=cbind(fish,ind)
   sfish = fish[order(fish[,1]),]
 
-   x.min1= compass[2,1]
-   x.max1= compass[1,1]
-   y.min1= compass[4,2]
-   y.max1= compass[3,2]
+  x.min1= compass[2,1]
+  x.max1= compass[1,1]
+  y.min1= compass[4,2]
+  y.max1= compass[3,2]
 
   plot(coords2,type="n",xlab="",ylab="",main="",
     xlim=c(x.min1,x.max1+30),las=1)
   lines(c(x.min1,x.max1),c(0,0),col="dark grey",lwd=1.5)
   lines(c(50,50),c(y.min1,y.max1),col="dark grey",lwd=1.5)
- #grid
-   lines(c(25,25),c(y.min1,y.max1),col = "lightgray", lty = "dotted")
-   lines(c(75,75),c(y.min1,y.max1),col = "lightgray", lty = "dotted")
+  #grid
+  lines(c(25,25),c(y.min1,y.max1),col = "lightgray", lty = "dotted")
+  lines(c(75,75),c(y.min1,y.max1),col = "lightgray", lty = "dotted")
  
-lines(c(x.min1,x.max1),c(25,25),,col = "lightgray", lty = "dotted")
-lines(c(x.min1,x.max1),c(-25,-25),,col = "lightgray", lty = "dotted")
-    
-
+  lines(c(x.min1,x.max1),c(25,25),,col = "lightgray", lty = "dotted")
+  lines(c(x.min1,x.max1),c(-25,-25),,col = "lightgray", lty = "dotted")
+  
   points(compass,xlab="",ylab="",col="dark red",pch=rownames(compass))
   points(anchorsplot,xlab="",ylab="",col="dark red",pch=19,cex=0.6)
   points(sfish,xlab="",ylab="",col=cols,pch=19)
@@ -193,30 +193,29 @@ RAPplot2 <- function(coords2,num_fish,n_an) {
   fish=cbind(fish,ind)
   sfish = fish[order(fish[,1]),]
 
-   x.min1= compass[2,1]
-   x.max1= compass[1,1]
-   y.min1= compass[4,2]
-   y.max1= compass[3,2]
+  x.min1= compass[2,1]
+  x.max1= compass[1,1]
+  y.min1= compass[4,2]
+  y.max1= compass[3,2]
 
   plot(coords2,type="n",xlab="",ylab="",main="",
     xlim=c(x.min1,x.max1+50),las=1)
   lines(c(x.min1,x.max1),c(0,0),col="dark grey",lwd=1.5)
   lines(c(50,50),c(y.min1,y.max1),col="dark grey",lwd=1.5)
- #grid
-   lines(c(25,25),c(y.min1,y.max1),col = "lightgray", lty = "dotted")
-   lines(c(75,75),c(y.min1,y.max1),col = "lightgray", lty = "dotted")
+  #grid
+  lines(c(25,25),c(y.min1,y.max1),col = "lightgray", lty = "dotted")
+  lines(c(75,75),c(y.min1,y.max1),col = "lightgray", lty = "dotted")
  
-lines(c(x.min1,x.max1),c(25,25),,col = "lightgray", lty = "dotted")
-lines(c(x.min1,x.max1),c(-25,-25),,col = "lightgray", lty = "dotted")
-    
+  lines(c(x.min1,x.max1),c(25,25),,col = "lightgray", lty = "dotted")
+  lines(c(x.min1,x.max1),c(-25,-25),,col = "lightgray", lty = "dotted")
 
   points(compass,xlab="",ylab="",col="dark red",pch=rownames(compass))
   points(anchorsplot,xlab="",ylab="",col="dark red",pch=19,cex=0.6)
   points(sfish,xlab="",ylab="",col=cols,pch=19)
   
- lp=round(num_fish/2,0)
-legend(108,40,rownames(sfish[1:lp,]),col=cols[1:lp],pch=19,cex=0.7,bty="n")
-legend(130,40,rownames(sfish[(lp+1):num_fish,]),col=cols[(lp+1):num_fish],pch=19,cex=0.7,bty="n")
+  lp=round(num_fish/2,0)
+  legend(108,40,rownames(sfish[1:lp,]),col=cols[1:lp],pch=19,cex=0.7,bty="n")
+  legend(130,40,rownames(sfish[(lp+1):num_fish,]),col=cols[(lp+1):num_fish],pch=19,cex=0.7,bty="n")
   
   output=list()
   output$scores=sfish[,1:2]
@@ -226,12 +225,10 @@ legend(130,40,rownames(sfish[(lp+1):num_fish,]),col=cols[(lp+1):num_fish],pch=19
 }
 
 
-
-
 #---- RADAR PLOTS ---------------------------------------------------
 radarplot <- function(dataset) {
   # Draw the plot background
-   cols=rainbow(max(10,nrow(dataset)),start=0, end=.7)
+  cols=rainbow(max(10,nrow(dataset)),start=0, end=.7)
   yp = c(-10,-5,5,10,5,-5,-10)
   xp = c(0,-5,-5,0,5,5,0)
   
@@ -265,5 +262,3 @@ radarplot <- function(dataset) {
     polygon(fx[i,],fy[i,],border=cols[i],lwd=2)
   }
 }
-
-
