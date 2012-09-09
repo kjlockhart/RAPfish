@@ -1,0 +1,160 @@
+,capcity_reduced,methods_harmful,bycatch_minimized,discards_minimized,ghost_fishing,juvenile_catch,depleted_stocks_rebuilt
+Argentina,4,3.5,3.5,2.5,0,3,2.5
+Angola,0,0,0,0,0,1,1
+Australia,4.5,5,6.5,4,7,6.5,5
+Bangladesh,0,0,1,0,0,0,0
+Brazil,2,3,3.5,2,0,2,1.5
+Canada,6,3.5,6.5,5.5,7.5,8,6
+Chile,5,3,3.5,4,0,3.5,4.5
+China ,4,4,1,4,3,1,2
+Denmark,3.5,3,2.5,2.5,3,3,3
+Ecuador,0,2.5,1,1,0,0,1
+Egypt,0.5,0,0,2,0,0,0
+Faroes,3,4,3.5,7,3.5,6,4.5
+France,4.5,2.5,4.5,2,2,3,3
+Germany,5,1.5,2,3,4.5,3,3
+Ghana,1,0,1,3.5,0,1,1
+Iceland,7,0,6.5,8,2,7,7
+India,3,1,1,3,0,1.5,0.5
+Indonesia,0,1,2.5,3,0,0,0
+Iran,2,2,1,1,0,0,0
+Ireland,3,1.5,3.5,2,2.5,3,2.5
+Italy,5,2.5,3,2,1,3,1.5
+Japan,7,1,2,0,3.5,4.5,4
+Latvia,3.5,1.5,2.5,2.5,0,1,1
+Malaysia,4,3.5,3,4,0,2.5,0
+Mexico,2,4,6,2.5,0,3,1
+Morocco,1.5,0,0,0,0,0,0.5
+Myanmar,0,0,1,1,0,1,0
+Namibia,0,4.5,5,7.5,1,3.5,5.5
+Netherlands,4,1.5,4,2.5,2.5,3,3
+New_Zealand,7,3.5,5.5,2.5,2,4.5,5
+Nigeria ,4,0,1,1.5,0,0.5,0
+North Korea,5,0,0,5,0,0,0
+Norway,5.5,6,8.5,8,6.5,8.5,7
+Pakistan,2,1.5,3.5,3.5,0,2.5,0
+Peru,4.5,2.5,1,5,0,6,5
+Philippines,0,3,1,4,0,0,0
+Poland,3.5,0,0,3,3.5,3,2
+Portugal,3.5,4.5,2.5,3,2,4,3
+Russia,1.5,2,0,0,3,1,0
+Senegal,0,0,2,4,0,0,0.5
+South Africa,4,3.5,5,6,1,6,7
+South Korea,2.5,0,0,1,8,6,3
+Spain,3.5,2,1,2.5,1.5,3,0
+Sri Lanka,0,0,0.5,3,0,0,0
+Sweden,3.5,3.5,5,4,7,4.5,4
+Taiwan,5,1,2,1,0,0,2
+Thailand,1.5,2,2,3,0,1,0.5
+Turkey,0.5,0,0,1.5,0,1,0
+UK,3.5,3,4.5,2.5,2.5,5,4
+Ukraine,4,0,0,1,0,2,0.5
+USA,7.5,5,5,3.5,4,6.5,7
+Viet Nam,0,0,0,4,0,0.5,0
+Yemen,0.5,0.5,0,4,0,1,0
+Low_Argentina,2,2,2,2,0,2,1
+Low_Angola,0,0,0,0,0,0,1
+Low_Australia,4,3,6,3,5,4,4
+Low_Bangladesh,0,0,0,0,0,0,0
+Low_Brazil,1,2,3,0,0,1,1
+Low_Canada,4,3,6,4,6,7,5
+Low_Chile,3,2,3,3,0,2,3
+Low_China ,2,2,0,3,2,0,2
+Low_Denmark,3,2,2,2,1,2,2
+Low_Ecuador,0,2,0,1,0,0,0
+Low_Egypt,0,0,0,1,0,0,0
+Low_Faroes,2,2,2,6,2,4,3
+Low_France,3,2,3,1,1,2,2
+Low_Germany,4,1,1,2,3,2,1
+Low_Ghana,1,0,1,3,0,0,1
+Low_Iceland,6,0,6,7,1,6,6
+Low_India,2,0,1,2,0,1,0
+Low_Indonesia,0,0,1,2,0,0,0
+Low_Iran,1,1,0,0,0,0,0
+Low_Ireland,3,1,2,1,2,2,2
+Low_Italy,4,1,2,0,0,2,0
+Low_Japan,6,0,1,0,2,4,4
+Low_Latvia,2,1,1,2,0,0,1
+Low_Malaysia,3,2,2,4,0,2,0
+Low_Mexico,1,3,5,2,0,2,0
+Low_Morocco,0,0,0,0,0,0,0
+Low_Myanmar,0,0,1,0,0,1,0
+Low_Namibia,0,3,3,7,0,3,4
+Low_Netherlands,2,1,3,2,1,2,2
+Low_New_Zealand,6,3,5,2,1,4,5
+Low_Nigeria ,3,0,0,1,0,0,0
+Low_North Korea,2,0,0,3,0,0,0
+Low_Norway,5,5,7,7,5,7,6
+Low_Pakistan,1,1,3,2,0,2,0
+Low_Peru,3,1,0,4,0,5,4
+Low_Philippines,0,1,0,4,0,0,0
+Low_Poland,2,0,0,2,2,1,1
+Low_Portugal,3,4,2,2,1,3,2
+Low_Russia,1,1,0,0,2,0,0
+Low_Senegal,0,0,1,2,0,0,0
+Low_South Africa,2,2,4,4,0,5,5
+Low_South Korea,2,0,0,1,8,5,2
+Low_Spain,3,1,0,2,1,3,0
+Low_Sri Lanka,0,0,0,3,0,0,0
+Low_Sweden,3,3,4,2,6,3,3
+Low_Taiwan,3,0,0,0,0,0,1
+Low_Thailand,1,1,1,2,0,0,0
+Low_Turkey,0,0,0,1,0,0,0
+Low_UK,3,1,3,2,1,4,3
+Low_Ukraine,3,0,0,0,0,2,0
+Low_USA,5,4,4,3,3,5,6
+Low_Viet Nam,0,0,0,3,0,0,0
+Low_Yemen,0,0,0,2,0,0,0
+High_Argentina,7,5,5,4,1,4,3
+High_Angola,0,0,0,2,0,2,3
+High_Australia,7,6,8,8,8,8,7
+High_Bangladesh,0,0,2,0,0,0,2
+High_Brazil,3,4,5,2,0,3,3
+High_Canada,6,5,8,6,8,9,7
+High_Chile,6,5,5,5,1,5,6
+High_China ,5,5,2,5,5,2,5
+High_Denmark,5,5,5,4,4,4,5
+High_Ecuador,1,4,3,3,1,1,3
+High_Egypt,1,0,0,3,0,0,0
+High_Faroes,4,5,5,8,5,7,6
+High_France,5,5,6,4,4,4,5
+High_Germany,6,3,3,5,6,4,5
+High_Ghana,3,2,3,4,1,3,2
+High_Iceland,8,3,8,9,6,8,8
+High_India,4,3,2,4,1,4,2
+High_Indonesia,0,3,3,4,0,1,2
+High_Iran,4,3,3,3,0,0,2
+High_Ireland,5,3,4,4,4,4,5
+High_Italy,6,5,5,3,2,5,2
+High_Japan,8,3,3,1,5,6,5
+High_Latvia,5,3,3,5,0,3,2
+High_Malaysia,5,5,4,6,1,3,1
+High_Mexico,3,5,7,4,5,5,3
+High_Morocco,3,2,1,1,1,1,3
+High_Myanmar,0,1,2,3,0,2,2
+High_Namibia,1,6,6,8,3,4,6
+High_Netherlands,5,3,5,4,4,4,5
+High_New_Zealand,8,5,6,4,3,5,7
+High_Nigeria ,5,1,2,2,0,2,0
+High_North Korea,7,1,3,6,0,0,0
+High_Norway,7,7,9,9,7,9,8
+High_Pakistan,4,4,5,4,3,4,1
+High_Peru,5,3,3,6,5,7,6
+High_Philippines,1,4,3,6,0,2,0
+High_Poland,5,0,2,6,4,3,4
+High_Portugal,5,6,4,4,3,5,5
+High_Russia,3,3,1,1,5,2,3
+High_Senegal,2,4,3,6,0,1,1
+High_South Africa,6,5,7,6,2,7,8
+High_South Korea,4,2,0,2,9,8,5
+High_Spain,5,3,3,5,3,6,3
+High_Sri Lanka,3,2,2,3.5,0,1,0
+High_Sweden,5,5,6,5,8,5,5
+High_Taiwan,6,3,2,5,2,2,4
+High_Thailand,3,3,3,4,1,3,1
+High_Turkey,2,1,1,4,0,2,0
+High_UK,5,4,5,5,4,6,6
+High_Ukraine,5,0,0,3,0,5,3
+High_USA,8,6,7,5,6,8,8
+High_Viet Nam,0,1,1,5,1,2,0
+High_Yemen,5,2,0,4,0,2,2

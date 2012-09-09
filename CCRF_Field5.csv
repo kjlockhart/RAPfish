@@ -1,0 +1,160 @@
+,conflict_minimized,indigenous_people,local_communities,cost_effectiveness,social_impact,industry_funding
+Argentina,3,0,2,5,2,2
+Angola,0,0,2,0,0,0
+Australia,7,4.5,6.5,6,7,6.5
+Bangladesh,2,5,3.5,3.5,4,0
+Brazil,4,5,3,0,0,2
+Canada,6,9,5.5,4.5,5,5
+Chile,7,0,7,5,5,5
+China ,6,6,4,5,7,4
+Denmark,5.5,7.5,7,7,6.5,2.5
+Ecuador,3,2,5,0,0,5
+Egypt,0.5,3.5,2.5,1,0,0
+Faroes,8,5,6,7,6,5
+France,5.5,2,7,7,5,1.5
+Germany,5,5,2.5,3.5,3.5,2
+Ghana,5,5,5,3,5,2
+Iceland,5.5,5,5.5,5,5,8
+India,4.5,9,4.5,0,3,0
+Indonesia,0,2.5,3,0,2,3.5
+Iran,2,5,3,0,0,0
+Ireland,4.5,5,5.5,4,4.5,3
+Italy,5,5,5,7,4,0
+Japan,7.5,8,8,8,9,7
+Latvia,1.5,3,2.5,2.5,2.5,0
+Malaysia,8,6,5,3,7,0
+Mexico,5,8,4,5,5,0
+Morocco,2.5,2,3.5,0,6,1
+Myanmar,0,0,1,0,0,1
+Namibia,8.5,5,7.5,8,6.5,6.5
+Netherlands,5,7.5,6,7,5,2
+New_Zealand,7,10,4,3,3,9
+Nigeria ,0.5,1,2,2,0.5,0.5
+North Korea,4,1,1,0,0,0
+Norway,7,5,6,6,8,5
+Pakistan,2,1,3,0,5,0
+Peru,7,0,2,2.5,1,1
+Philippines,4,9.5,4,2,5,0
+Poland,1.5,5,2.5,1.5,2.5,0
+Portugal,4.5,5,6.5,6,6,2
+Russia,4,7.5,4,3,2,3
+Senegal,2,5,5,0,0,0.5
+South Africa,7.5,8,6,4.5,6,7
+South Korea,4,4,4,1.5,4,0
+Spain,4,7.5,7,7,6,0.5
+Sri Lanka,3,0,3.5,2.5,2,0
+Sweden,2,6,4.5,4.5,3.5,1
+Taiwan,4,8,4,0,2,0
+Thailand,0,1,1.5,3,1.5,0
+Turkey,0,5,5,0,0,0
+UK,4,5,5,3,7,1
+Ukraine,1,3.5,2,0,0,0
+USA,6,7.5,6,6,6,3
+Viet Nam,2,5,2,1,1,1
+Yemen,0,0,2,1,1,1.5
+Low_Argentina,1,0,1,1,1,1
+Low_Angola,0,0,0,0,0,0
+Low_Australia,5,4,5,4,5,6
+Low_Bangladesh,1,5,2,2,2,0
+Low_Brazil,2,2,2,0,0,1
+Low_Canada,3,7,4,4,4,4
+Low_Chile,5,0,4,3,2,3
+Low_China ,5,5,2,4,5,3
+Low_Denmark,4,7,5,5,5,1
+Low_Ecuador,2,1,2,0,0,4
+Low_Egypt,0,2,2,0,0,0
+Low_Faroes,6,5,5,6,5,5
+Low_France,4,2,5,5,5,1
+Low_Germany,3,5,2,2,1,0
+Low_Ghana,4,5,3,1,3,1
+Low_Iceland,4,5,5,4,4,7
+Low_India,3,7,3,0,3,0
+Low_Indonesia,0,1,2,0,0,2
+Low_Iran,1,5,2,0,0,0
+Low_Ireland,4,5,5,3,4,1
+Low_Italy,3,5,3,5,2,0
+Low_Japan,5,6,6,7,7,5
+Low_Latvia,1,2,2,2,2,0
+Low_Malaysia,6,4,4,2,5,0
+Low_Mexico,2,6,3,3,2,0
+Low_Morocco,1,1,2,0,4,0
+Low_Myanmar,0,0,1,0,0,1
+Low_Namibia,7,5,6,7,6,4
+Low_Netherlands,4,7,5,5,4,1
+Low_New_Zealand,5,7,4,2,2,8
+Low_Nigeria ,0,0,1,1,0,0
+Low_North Korea,2,0,0,0,0,0
+Low_Norway,4,3,4,5,7,3
+Low_Pakistan,1,0,2,0,3,0
+Low_Peru,4,0,1,0,0,0
+Low_Philippines,3,8,2,2,5,0
+Low_Poland,1,3,2,1,2,0
+Low_Portugal,2,5,5,5,5,1
+Low_Russia,2,5,2,1,0,2
+Low_Senegal,0,5,2,0,0,0
+Low_South Africa,6,7,4,4,4,5
+Low_South Korea,3,2,2,0,2,0
+Low_Spain,3,7,5,5,5,0
+Low_Sri Lanka,2,0,1,2,1,0
+Low_Sweden,1,4,3,3,3,0
+Low_Taiwan,2,6,2,0,1,0
+Low_Thailand,0,0,1,1,0,0
+Low_Turkey,0,5,4,0,0,0
+Low_UK,3,2,4,2,6,0
+Low_Ukraine,0,2,1,0,0,0
+Low_USA,2,5,5,2,2,2
+Low_Viet Nam,1,5,0,0,0,0
+Low_Yemen,0,0,1,0,0,1
+High_Argentina,5,2,7,7,7,5
+High_Angola,2,1,3,1,1,1
+High_Australia,9,6,9,8,8,8
+High_Bangladesh,5,5,5,5,5,0
+High_Brazil,6,7,4,0,0,3
+High_Canada,7,10,6,6,8,7
+High_Chile,8,2,8,7,8,6
+High_China ,7,8,5,6,8,5
+High_Denmark,7,8,8,8,8,4
+High_Ecuador,8,4,8,1,1,6
+High_Egypt,1,4,3,2,0,0
+High_Faroes,9,5,9,9,8,5
+High_France,6,4,8,8,6,4
+High_Germany,6,5,5,5,5,3
+High_Ghana,6,5,6,4,6,3
+High_Iceland,6,5,8,8,6,9
+High_India,6,10,6,2,5,0
+High_Indonesia,0,3,4,3,3,6
+High_Iran,6,5,5,1,2,0
+High_Ireland,6,5,7,5,6,5
+High_Italy,6,5,6,8,5,1
+High_Japan,8,8,8,9,9,7
+High_Latvia,4,5,3,5,3,0
+High_Malaysia,8,7,6,4,7,4
+High_Mexico,6,8,7,7,7,4
+High_Morocco,4,5,5,5,7,5
+High_Myanmar,2,0,3,0,0,2
+High_Namibia,9,5,8,9,7,7
+High_Netherlands,7,8,8,8,8,4
+High_New_Zealand,9,10,6,5,5,10
+High_Nigeria ,2,5,3,3,3,1
+High_North Korea,5,5,3,0,0,0
+High_Norway,7,7,7,9,9,7
+High_Pakistan,4,5,5,3,6,1
+High_Peru,8,1,7,5,5,5
+High_Philippines,6,10,5,4,7,3
+High_Poland,5,6,5,5,5,0
+High_Portugal,5,5,7,7,7,3
+High_Russia,5,8,5,4,3,4
+High_Senegal,4,5,6,1,0,1
+High_South Africa,8,8,8,6,7,8
+High_South Korea,6,5,5,5,6,2
+High_Spain,5,8,8,8,8,3
+High_Sri Lanka,4,2,4,3,4,0
+High_Sweden,5,7,5,5,5,5
+High_Taiwan,5,9,4,4,4,2
+High_Thailand,2,4,5,5,5,1
+High_Turkey,3,5,7,3,3,2
+High_UK,7,6,7,5,9,4
+High_Ukraine,5,5,4,0,0,0
+High_USA,9,8,7,9,9,5
+High_Viet Nam,3,5,2,4,3,3
+High_Yemen,1,0,4,2,2,3

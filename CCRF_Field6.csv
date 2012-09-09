@@ -1,0 +1,160 @@
+,observers,catch_inpection,vessel_monitoring,illegal_fishing,enforcement_IUU,flags_of_convenience
+Argentina,5,2,2,8.5,5,6
+Angola,0,1,0,7,0,0
+Australia,7,7.5,7,2.5,7.5,0
+Bangladesh,1,1.5,0,7.5,0,0
+Brazil,3,4,2,8,5,1.5
+Canada,7.5,8,7.5,3.5,7,0
+Chile,2,7,8,6,4,6
+China ,2,4,5,9,4,7
+Denmark,4.5,5,5,8,4,0
+Ecuador,4,2,0,8,2,5
+Egypt,1,0.5,0,5,1.5,0
+Faroes,4.5,6,6,4,5,0
+France,3.5,4.5,7,7.5,4.5,2.5
+Germany,3.5,5,5.5,4,7,4
+Ghana,4,3.5,4,6,2.5,3
+Iceland,5,7,9,4,7,5
+India,0,4.5,3,6,3.5,0
+Indonesia,1,3.5,4,9,3.5,4
+Iran,0,2.5,1,5,2.5,0
+Ireland,4,6,6,7,4.5,0
+Italy,1,3,3,8,2,0.5
+Japan,4,7,8,5,6,8
+Latvia,1.5,3,2,4,1.5,0
+Malaysia,0,6,6,6,6,3
+Mexico,4,2,5,7,5,1.5
+Morocco,1.5,4,2,9,3,7.5
+Myanmar,0,3,1.5,10,2,6
+Namibia,8.5,8.5,7.5,0.5,8.5,0
+Netherlands,4,4.5,5,8,3.5,7.5
+New_Zealand,8,5,7,4.5,6,1
+Nigeria ,0,0,0,9.5,0,3.5
+North Korea,0,0,0,5,0,0
+Norway,9,9,8,3.5,7.5,2
+Pakistan,3,3,8,8,4.5,0
+Peru,0,4,8,7,2.5,3
+Philippines,0,5,4,9,4.5,0
+Poland,4.5,4.5,5,5,2,0
+Portugal,5,5,3.5,4,4,0
+Russia,2.5,2,4,10,2.5,8.5
+Senegal,3,2,3,6,4.5,0
+South Africa,6,5,8,6,5,3
+South Korea,4,6,8,6,5,9
+Spain,4,4.5,3.5,10,3.5,10
+Sri Lanka,0.5,1,0,8,2.5,0
+Sweden,4,6,4,6.5,1,5
+Taiwan,3,4,4,9.5,3,10
+Thailand,0,1.5,2.5,10,2,0
+Turkey,0,2.5,0,8.5,3,6
+UK,6,3,7.5,8,4,3
+Ukraine,2.5,3,2.5,8,0,7
+USA,5.5,7,6,4,5.5,5
+Viet Nam,0,1,2,9.5,4,0
+Yemen,3.5,1.5,1,8,2,0
+Low_Argentina,4,1,1,6,1,4
+Low_Angola,0,0,0,5,0,0
+Low_Australia,6,5,5,2,5,0
+Low_Bangladesh,0,1,0,5,0,0
+Low_Brazil,2,2,1,6,4,1
+Low_Canada,6,6,6,2,5,0
+Low_Chile,1,4,7,4,3,4
+Low_China ,0,3,4,7,3,5
+Low_Denmark,3,3,4,7,2,0
+Low_Ecuador,3,1,0,5,0,3
+Low_Egypt,0,0,0,4,1,0
+Low_Faroes,3,4,5,2,3,0
+Low_France,3,3,6,7,2,2
+Low_Germany,1,5,3,3,2,3
+Low_Ghana,3,3,3,4,1,2
+Low_Iceland,3,7,9,3,6,3
+Low_India,0,2,2,3,3,0
+Low_Indonesia,0,1,2,8,2,3
+Low_Iran,0,2,0,4,0,0
+Low_Ireland,3,4,5,5,4,0
+Low_Italy,0,2,1,6,1,0
+Low_Japan,4,5,7,2,5,5
+Low_Latvia,1,2,1,2,1,0
+Low_Malaysia,0,4,5,5,3,2
+Low_Mexico,3,1,2,5,3,1
+Low_Morocco,0,2,1,7,1,6
+Low_Myanmar,0,2,1,8,0,5
+Low_Namibia,7,7,6,0,8,0
+Low_Netherlands,3,3,4,7,2,6
+Low_New_Zealand,8,4,6,3,5,0
+Low_Nigeria ,0,0,0,8,0,2
+Low_North Korea,0,0,0,0,0,0
+Low_Norway,7,7,7,2,7,1
+Low_Pakistan,2,2,5,6,3,0
+Low_Peru,0,2,7,6,2,1
+Low_Philippines,0,3,2,7,2,0
+Low_Poland,3,3,3,3,1,0
+Low_Portugal,4,3,3,2,2,0
+Low_Russia,0,1,3,8,2,6
+Low_Senegal,2,1,1,4,3,0
+Low_South Africa,5,3,6,5,3,2
+Low_South Korea,3,5,8,5,3,7
+Low_Spain,3,3,2,7,2,7
+Low_Sri Lanka,0,0,0,5,2,0
+Low_Sweden,2,3,3,3,0,3
+Low_Taiwan,2,3,2,8,1,9
+Low_Thailand,0,1,2,9,1,0
+Low_Turkey,0,1,0,7,1,4
+Low_UK,5,2,6,6,3,2
+Low_Ukraine,2,1,2,6,0,4
+Low_USA,4,6,4,3,2,3
+Low_Viet Nam,0,1,1,7,2,0
+Low_Yemen,2,1,1,6,0,0
+High_Argentina,7,4,5,9,5,8
+High_Angola,2,3,1,8,1,1
+High_Australia,8,9,8,6,9,2
+High_Bangladesh,2,3,1,10,2,0
+High_Brazil,4,6,3,9,6,4
+High_Canada,8,9,8,5,8,1
+High_Chile,4,8,9,7,5,7
+High_China ,3,6,6,10,6,8
+High_Denmark,6,6,6,10,5,1
+High_Ecuador,5,6,1,9,3,7
+High_Egypt,3,1,0,6,2,0
+High_Faroes,8,8,7,5,7,0
+High_France,6,6,8,10,5,5
+High_Germany,5,7,7,6,8,7
+High_Ghana,5,5,5,10,5,5
+High_Iceland,8,9,10,6,8,7
+High_India,1,5,4,7,4,1
+High_Indonesia,2,4,6,10,5,6
+High_Iran,3,6,3,7,4,0
+High_Ireland,7,7,7,9,6,0
+High_Italy,3,5,4,9,3,1
+High_Japan,6,8,9,6,8,8
+High_Latvia,5,5,6,8,5,6
+High_Malaysia,0,7,8,8,7,6
+High_Mexico,6,5,9,8,8,4
+High_Morocco,4,5,4,10,4,9
+High_Myanmar,0,4,3,10,4,8
+High_Namibia,9,9,8,3,9,0
+High_Netherlands,6,6,6,10,5,9
+High_New_Zealand,10,7,8,6,7,2
+High_Nigeria ,1,1,0,10,1,5
+High_North Korea,2,2,2,10,2,0
+High_Norway,9,9,8,4,9,3
+High_Pakistan,5,5,8,9,6,0
+High_Peru,4,6,9,9,4,3
+High_Philippines,0,6,6,10,6,0
+High_Poland,6,6,6,7,5,5
+High_Portugal,6,6,5,6,6,2
+High_Russia,4,3,6,10,4,9
+High_Senegal,4,4,4,7,6,0
+High_South Africa,8,6,9,8,6,4
+High_South Korea,5,7,9,7,6,9
+High_Spain,6,6,5,10,5,10
+High_Sri Lanka,3,3,0,9,3,0
+High_Sweden,6,7,6,8,3,7
+High_Taiwan,4,6,5,10,4,10
+High_Thailand,0,4,4,10,4,0
+High_Turkey,0,4,3,9,4,7
+High_UK,7,5,9,9,6,4
+High_Ukraine,5,5,5,9,2,9
+High_USA,7,7,7,6,9,6
+High_Viet Nam,0,3,4,10,6,1
+High_Yemen,5,2,5,10,4,0

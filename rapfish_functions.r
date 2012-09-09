@@ -98,7 +98,7 @@ mdscale <- function(dataset) {
   disttbl= dist(dataset,"euclidean",diag=TRUE,upper=TRUE)
   coords = cmdscale(disttbl,k=2)
 
-  # Flip & Scale - needed?
+  # Flip & Scale - when needed.
   #dx = coords['GOOD',1] - coords['BAD',1]
   if (coords['GOOD',1] < coords['BAD',1]) {
     coords[,1]= -coords[,1]  # flip horizontal
@@ -109,7 +109,7 @@ mdscale <- function(dataset) {
     coords[,2]= -coords[,2]  # flip vertical
   }  
   
-  # Rotate - needed?
+  # Rotate - when needed.
   p1= toPolar( coords['GOOD',1], coords['GOOD',2] )
   p2= toPolar( coords['BAD',1], coords['BAD',2] )
   angle= -( mean(c(p1[2],p2[2])))
